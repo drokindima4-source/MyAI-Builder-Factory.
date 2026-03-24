@@ -9,10 +9,8 @@ jobs:
         uses: ArtemSerebrennkov/buildozer-action@master
         with:
           python-version: 3.9
-          buildozer-version: master
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: package
           path: bin/*.apk
-
