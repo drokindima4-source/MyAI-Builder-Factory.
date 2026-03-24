@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build with Buildozer
-        uses: ArtemSerebrennkov/buildozer-action@master
+        uses: Luka967/buildozer-action@master
         with:
           python-version: 3.9
       - name: Upload APK
